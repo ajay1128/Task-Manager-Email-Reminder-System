@@ -1,0 +1,6 @@
+framework module Pods_iOS_Text_ReminderTests {
+  umbrella header "Pods-iOS Text ReminderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

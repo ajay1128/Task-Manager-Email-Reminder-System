@@ -16,6 +16,9 @@
 		0EF366742193A23700029818 /* iOS_Text_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF366732193A23700029818 /* iOS_Text_ReminderUITests.swift */; };
 		0EF366822193A3DF00029818 /* HostAndTaskCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF366812193A3DF00029818 /* HostAndTaskCreation.swift */; };
 		0EF366842193A45900029818 /* SendText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF366832193A45900029818 /* SendText.swift */; };
+		8B8958040CDE335B659010C5 /* Pods_iOS_Text_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D73902CFBABB7DB1615B2 /* Pods_iOS_Text_Reminder.framework */; };
+		95FE09AE0CC3C252F8530E03 /* Pods_iOS_Text_ReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87757D11EECC9AB624A069D /* Pods_iOS_Text_ReminderTests.framework */; };
+		BE3543788921A36BCF0669B2 /* Pods_iOS_Text_ReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DFBD4DB06212693F598EB8 /* Pods_iOS_Text_ReminderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C05914FD5878B5AAE0D6190 /* Pods-iOS Text ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Text ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-iOS Text ReminderTests/Pods-iOS Text ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 		0EF366502193A23600029818 /* iOS Text Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Text Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF366532193A23600029818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EF366552193A23600029818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		0EF366752193A23700029818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EF366812193A3DF00029818 /* HostAndTaskCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostAndTaskCreation.swift; sourceTree = "<group>"; };
 		0EF366832193A45900029818 /* SendText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendText.swift; sourceTree = "<group>"; };
+		51BA330BF9BEAA2FE6EE78D3 /* Pods-iOS Text ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Text ReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS Text ReminderUITests/Pods-iOS Text ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59DFBD4DB06212693F598EB8 /* Pods_iOS_Text_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Text_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1D73902CFBABB7DB1615B2 /* Pods_iOS_Text_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Text_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6C371BAF0A26E54A87D906 /* Pods-iOS Text Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Text Reminder.release.xcconfig"; path = "Target Support Files/Pods-iOS Text Reminder/Pods-iOS Text Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		C87757D11EECC9AB624A069D /* Pods_iOS_Text_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Text_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA207B08EC21D72F51BEC41 /* Pods-iOS Text ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Text ReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS Text ReminderUITests/Pods-iOS Text ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF90ED21DA3790463C2133AF /* Pods-iOS Text Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Text Reminder.debug.xcconfig"; path = "Target Support Files/Pods-iOS Text Reminder/Pods-iOS Text Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E2FBC624741B10B89323DE /* Pods-iOS Text ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Text ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS Text ReminderTests/Pods-iOS Text ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8958040CDE335B659010C5 /* Pods_iOS_Text_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FE09AE0CC3C252F8530E03 /* Pods_iOS_Text_ReminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3543788921A36BCF0669B2 /* Pods_iOS_Text_ReminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				0EF366672193A23700029818 /* iOS Text ReminderTests */,
 				0EF366722193A23700029818 /* iOS Text ReminderUITests */,
 				0EF366512193A23600029818 /* Products */,
+				97EDC99DC22EF5C93B757470 /* Pods */,
+				DF8BA172C4647A71FB232AEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = "iOS Text ReminderUITests";
 			sourceTree = "<group>";
 		};
+		97EDC99DC22EF5C93B757470 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF90ED21DA3790463C2133AF /* Pods-iOS Text Reminder.debug.xcconfig */,
+				BC6C371BAF0A26E54A87D906 /* Pods-iOS Text Reminder.release.xcconfig */,
+				F8E2FBC624741B10B89323DE /* Pods-iOS Text ReminderTests.debug.xcconfig */,
+				0C05914FD5878B5AAE0D6190 /* Pods-iOS Text ReminderTests.release.xcconfig */,
+				CDA207B08EC21D72F51BEC41 /* Pods-iOS Text ReminderUITests.debug.xcconfig */,
+				51BA330BF9BEAA2FE6EE78D3 /* Pods-iOS Text ReminderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF8BA172C4647A71FB232AEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C1D73902CFBABB7DB1615B2 /* Pods_iOS_Text_Reminder.framework */,
+				C87757D11EECC9AB624A069D /* Pods_iOS_Text_ReminderTests.framework */,
+				59DFBD4DB06212693F598EB8 /* Pods_iOS_Text_ReminderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF366782193A23700029818 /* Build configuration list for PBXNativeTarget "iOS Text Reminder" */;
 			buildPhases = (
+				06EEF42039B85D67826576C2 /* [CP] Check Pods Manifest.lock */,
 				0EF3664C2193A23600029818 /* Sources */,
 				0EF3664D2193A23600029818 /* Frameworks */,
 				0EF3664E2193A23600029818 /* Resources */,
+				AFAEBA348D1272F82C629E95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF3667B2193A23700029818 /* Build configuration list for PBXNativeTarget "iOS Text ReminderTests" */;
 			buildPhases = (
+				67EE8C7FFC914541F2A5A173 /* [CP] Check Pods Manifest.lock */,
 				0EF366602193A23700029818 /* Sources */,
 				0EF366612193A23700029818 /* Frameworks */,
 				0EF366622193A23700029818 /* Resources */,
@@ -173,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF3667E2193A23700029818 /* Build configuration list for PBXNativeTarget "iOS Text ReminderUITests" */;
 			buildPhases = (
+				2C12303044463F0463181E38 /* [CP] Check Pods Manifest.lock */,
 				0EF3666B2193A23700029818 /* Sources */,
 				0EF3666C2193A23700029818 /* Frameworks */,
 				0EF3666D2193A23700029818 /* Resources */,
@@ -256,6 +301,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06EEF42039B85D67826576C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Text Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C12303044463F0463181E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Text ReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67EE8C7FFC914541F2A5A173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Text ReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAEBA348D1272F82C629E95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Text Reminder/Pods-iOS Text Reminder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Text Reminder/Pods-iOS Text Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EF3664C2193A23600029818 /* Sources */ = {
@@ -438,6 +574,7 @@
 		};
 		0EF366792193A23700029818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF90ED21DA3790463C2133AF /* Pods-iOS Text Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +592,7 @@
 		};
 		0EF3667A2193A23700029818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6C371BAF0A26E54A87D906 /* Pods-iOS Text Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +610,7 @@
 		};
 		0EF3667C2193A23700029818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E2FBC624741B10B89323DE /* Pods-iOS Text ReminderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +631,7 @@
 		};
 		0EF3667D2193A23700029818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C05914FD5878B5AAE0D6190 /* Pods-iOS Text ReminderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +652,7 @@
 		};
 		0EF3667F2193A23700029818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA207B08EC21D72F51BEC41 /* Pods-iOS Text ReminderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +672,7 @@
 		};
 		0EF366802193A23700029818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BA330BF9BEAA2FE6EE78D3 /* Pods-iOS Text ReminderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
